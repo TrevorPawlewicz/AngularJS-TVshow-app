@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Angular TVTracker</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+</head>
+
+
+<body ng-app="app">
+
+    <header class="app-header">
+        <div class="logo">TVTracker</div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#/">What's on <div class="arrow-up"></div></a>
+                </li>
+                <li>
+                    <a href="#/my-shows">My Shows <div class="arrow-up"></div></a>
+                </li>
+                <li>
+                    <a href="#/search">Search <div class="arrow-up"></div></a>
+                </li>
+            </ul>
+        </nav>
+    </header> <!-- END class="app-header" -->
+
+
+
+
+
+    <main class="main-container container" ng-view></main>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap-tpls.min.js"></script>
+</body>
+</html>
